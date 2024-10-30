@@ -2,7 +2,7 @@
 from trainlib import *
 
 # Connect to WiFi
-connect_wifi("ThinkCreateLearn", "curiousgecko")
+connect_wifi("ssid", "password")
 
 # Report that an RFID tag has registered at LocationA
 res = report(123, "LocationA")
